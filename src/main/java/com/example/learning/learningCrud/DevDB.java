@@ -1,7 +1,7 @@
 package com.example.learning.learningCrud;
 
-public class ProdDB implements DB{
+public class DevDB implements DB {
     public String getData(){
-        return "Production Data";
+        return "Development Data";
     }
 }
